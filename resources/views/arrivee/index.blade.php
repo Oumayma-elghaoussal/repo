@@ -90,13 +90,13 @@
 
     <!-- Titres centrés -->
     <div class="main-title">BUREAU D'ORDRE</div>
-    <div class="subtitle">DAI - arrivée </div>
+    <div class="subtitle">DAI - arrivée Ministérielle</div>
 
     <!-- Navigation + barre de recherche -->
     <div class="d-flex justify-content-between align-items-center my-4 flex-wrap gap-3">
         <div>
-            <a href="{{ route('depart.index') }}" class="btn btn-outline-primary btn-nav me-2">📤 Départ</a>
-            <a href="{{ route('arrivee.index') }}" class="btn btn-outline-dark btn-nav">📥 Arrivée</a> 
+            {{--<a href="{{ route('depart.index') }}" class="btn btn-outline-primary btn-nav me-2">📤 Départ</a> --}}
+            <a href="{{ route('arrivee.index') }}" class="btn btn-outline-dark btn-nav">📥 Arrivée Ministérielle</a> 
             <a href="{{ route('visa.index') }}" class="btn btn-outline-success btn-nav">📝 Visa</a> 
             <a href="{{ route('departconfidentiel.index') }}" class="btn btn-outline-danger btn-nav">🔒 Départ Confidentiel</a>
             <a href="{{ route('departministerielle.index') }}" class="btn btn-outline-primary btn-nav">🏛️ Départ Ministérielle</a>
